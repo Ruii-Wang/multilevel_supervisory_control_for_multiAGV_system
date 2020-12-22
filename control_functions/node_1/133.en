@@ -1,0 +1,31 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+248881 [label="AGV11_0"];
+248881 -> 248879 [style=dotted];
+248881 -> 248880 [style=filled];
+248879 [label="AGV11_1"];
+248879 -> 248878 [style=dotted];
+248879 -> 248876 [style=filled];
+248878 [label="AGV12_0"];
+248878 -> 248876 [style=dotted];
+248878 -> 248877 [style=filled];
+248876 [label="WS12"];
+248876 -> 0 [style=dotted];
+248876 -> 18016 [style=filled];
+18016 [label="Z12_0"];
+18016 -> 105 [style=dotted];
+18016 -> 104 [style=filled];
+105 [label="Z12_1"];
+105 -> 1 [style=dotted];
+105 -> 0 [style=filled];
+104 [label="Z12_1"];
+104 -> 0 [style=dotted];
+104 -> 1 [style=filled];
+248877 [label="AGV12_1"];
+248877 -> 0 [style=dotted];
+248877 -> 248876 [style=filled];
+248880 [label="AGV11_1"];
+248880 -> 248876 [style=dotted];
+248880 -> 0 [style=filled];
+}

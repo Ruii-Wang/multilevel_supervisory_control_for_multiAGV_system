@@ -1,0 +1,25 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+712 [label="AGV32_0"];
+712 -> 711 [style=dotted];
+712 -> 0 [style=filled];
+711 [label="AGV32_1"];
+711 -> 710 [style=dotted];
+711 -> 0 [style=filled];
+710 [label="AGV32_2"];
+710 -> 0 [style=dotted];
+710 -> 709 [style=filled];
+709 [label="IPS3_0"];
+709 -> 708 [style=dotted];
+709 -> 0 [style=filled];
+708 [label="IPS3_1"];
+708 -> 0 [style=dotted];
+708 -> 704 [style=filled];
+704 [label="Z31_0"];
+704 -> 95 [style=dotted];
+704 -> 0 [style=filled];
+95 [label="Z31_1"];
+95 -> 1 [style=dotted];
+95 -> 0 [style=filled];
+}
