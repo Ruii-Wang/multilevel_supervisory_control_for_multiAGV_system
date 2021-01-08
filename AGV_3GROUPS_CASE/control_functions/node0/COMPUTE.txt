@@ -1,0 +1,7 @@
+The time spent in synthesis is 0.00199604 seconds.
+The bdd size of the specification: 9
+The bdd size of the illegal state set: 9
+The bdd size of the optimal controlled behavior: 9
+The bdd size of all control functions: 4
+The maximum bdd size of control functions: 1
+The minimum bdd size of control functions: 0

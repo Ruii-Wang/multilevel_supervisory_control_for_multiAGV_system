@@ -1,0 +1,34 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+245914 [label="AGV33_0"];
+245914 -> 245913 [style=dotted];
+245914 -> 0 [style=filled];
+245913 [label="AGV34_0"];
+245913 -> 245911 [style=dotted];
+245913 -> 245912 [style=filled];
+245911 [label="AGV34_1"];
+245911 -> 245910 [style=dotted];
+245911 -> 0 [style=filled];
+245910 [label="AGV34_2"];
+245910 -> 245909 [style=dotted];
+245910 -> 0 [style=filled];
+245909 [label="IPS3_1"];
+245909 -> 0 [style=dotted];
+245909 -> 245908 [style=filled];
+245908 [label="WS33"];
+245908 -> 16497 [style=dotted];
+245908 -> 0 [style=filled];
+16497 [label="Z31_0"];
+16497 -> 95 [style=dotted];
+16497 -> 94 [style=filled];
+95 [label="Z31_1"];
+95 -> 1 [style=dotted];
+95 -> 0 [style=filled];
+94 [label="Z31_1"];
+94 -> 0 [style=dotted];
+94 -> 1 [style=filled];
+245912 [label="AGV34_1"];
+245912 -> 0 [style=dotted];
+245912 -> 245909 [style=filled];
+}
